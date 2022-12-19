@@ -24,8 +24,8 @@ Route::get('/news', [App\Http\Controllers\BlogController::class, 'news'])->name(
 Route::get('/news/{slug}', [App\Http\Controllers\BlogController::class, 'show'])->name('show');
 Route::post('/contact/send', [App\Http\Controllers\ContactController::class, 'send'])->name('contact.send')->middleware('xss');
 
-// Auth::routes();
-Auth::routes(['register' => false]);
+Auth::routes();
+// Auth::routes(['register' => false]);
 Route::group(['middleware' => ['auth','xss']], function() {
     Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
     Route::group(['prefix' => 'blogs', 'as' => 'blogs.'], function() {
@@ -43,5 +43,6 @@ Route::group(['middleware' => ['auth','xss']], function() {
     });
     Route::group(['prefix' => 'contact', 'as' => 'contact.'], function() {
         Route::get('/', [App\Http\Controllers\ContactController::class, 'index'])->name('index');
+        Route::get('/update/{id}', [App\Http\Controllers\ContactController::class, 'update'])->name('update');
     });
 });

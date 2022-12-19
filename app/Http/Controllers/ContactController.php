@@ -52,6 +52,16 @@ class ContactController extends Controller
         ]);
     }
 
+    public function update(Request $request,$id)
+    {
+        ContactUs::find($id)->update([
+            'status' => 1
+        ]);
+        
+        $request->session()->flash('success', 'Berhasil update status');
+        return redirect()->route('contact.index');
+    }
+
     public function sends(Request $request)
     {
         $this->validate($request, [

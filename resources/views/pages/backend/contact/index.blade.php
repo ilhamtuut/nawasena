@@ -38,6 +38,7 @@
                             <th scope="col">Email</th>
                             <th scope="col">Subjek</th>
                             <th scope="col">Pesan</th>
+                            <th scope="col">Status</th>
                             <th class="text-center" scope="col">Aksi</th>
                           </tr>
                         </thead>
@@ -49,13 +50,15 @@
                                     <td>{{ $value->email }}</td>
                                     <td>{{ $value->subject }}</td>
                                     <td>{{ $value->message }}</td>
+                                    <td>{!! $value->status ? '<span class="badge badge-success">Sudah Balas</span>' : '<span class="badge badge-danger">Belum Balas</span>' !!}</td>
                                     <td class="text-center">
                                         <a href="mailto:{{ $value->email }}?subject={{ $value->subject }}&body={{ $value->message }}" class="badge badge-info">Send Email</a>
+                                        <a href="{{ route('contact.update',$value->id) }}" class="badge badge-primary">Update Status Balas</a>
                                     </td>
                                 </tr>
                             @empty
                                 <tr>
-                                    <td colspan="6" class="text-center">Data masih kosong</td>
+                                    <td colspan="7" class="text-center">Data masih kosong</td>
                                 </tr>
                             @endforelse
                         </tbody>
