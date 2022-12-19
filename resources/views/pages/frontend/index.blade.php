@@ -15,7 +15,7 @@
                             <h2>CV NAWASENA WIGUNA SEMESTA</h2>
                             <p>CV Nawasena Wiguna Semesta sebagai perusahaan yang bergerak dibidang Pengadaan Barang dan Jasa serta Pekerjaan Konstruksi.</p>
                             <div class="text-center">
-                                <a href="#" class="btn-get-started"><img height="25px" src="{{ asset('file/images/handshake.svg') }}"> Bergabunglah dengan kami</a>
+                                <a href="{{ url('contact-us') }}" class="btn-get-started"><i class="bi bi-telephone"></i> Hubungi Kami</a>
                             </div>
                         </div>
                     </div>
@@ -28,7 +28,7 @@
                             <h2>CV NAWASENA WIGUNA SEMESTA</h2>
                             <p>CV Nawasena Wiguna Semesta sebagai perusahaan yang bergerak dibidang Pengadaan Barang dan Jasa serta Pekerjaan Konstruksi.</p>
                             <div class="text-center">
-                                <a href="#" class="btn-get-started"><img height="25px" src="{{ asset('file/images/handshake.svg') }}"> Bergabunglah dengan kami</a>
+                                <a href="{{ url('contact-us') }}" class="btn-get-started"><i class="bi bi-telephone"></i> Hubungi Kami</a>
                             </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@
                             <h2>CV NAWASENA WIGUNA SEMESTA</h2>
                             <p>CV Nawasena Wiguna Semesta sebagai perusahaan yang bergerak dibidang Pengadaan Barang dan Jasa serta Pekerjaan Konstruksi.</p>
                             <div class="text-center">
-                                <a href="#" class="btn-get-started"><img height="25px" src="{{ asset('file/images/handshake.svg') }}"> Bergabunglah dengan kami</a>
+                                <a href="{{ url('contact-us') }}" class="btn-get-started"><i class="bi bi-telephone"></i> Hubungi Kami</a>
                             </div>
                         </div>
                     </div>
@@ -117,7 +117,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center text-lg-left">
                     <h3>Siap Bermitra dengan <span>CV Nawasena Wiguna Semesta?</span></h3>
-                    <a class="cta-btn align-middle" href="#"><i class="bi bi-telephone"></i> Hubungi Kami</a>
+                    <a class="cta-btn align-middle" href="{{ url('contact-us') }}"><i class="bi bi-telephone"></i> Hubungi Kami</a>
                 </div>
             </div>
 
@@ -160,46 +160,46 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6">
-                    <div class="icon-box" data-aos="fade-up">
+                    <div class="icon-box" data-filter=".filter-app" data-aos="fade-up">
                         <div class="icon"><i class="bi bi-laptop"></i></div>
-                        <h4 class="title"><a href="">Komputer & Aksesoris</a></h4>
+                        <h4 class="title"><a href="#portfolio">Komputer & Aksesoris</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon-box" data-filter=".filter-card" data-aos="fade-up" data-aos-delay="100">
                         <div class="icon"><i class="bi bi-card-checklist"></i></div>
-                        <h4 class="title"><a href="">Alat Tulis Kantor</a></h4>
+                        <h4 class="title"><a href="#portfolio">Alat Tulis Kantor</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon-box" data-filter=".filter-web" data-aos="fade-up" data-aos-delay="200">
                         <div class="icon"><i class="bi bi-phone"></i></div>
-                        <h4 class="title"><a href="">Elektronik</a></h4>
+                        <h4 class="title"><a href="#portfolio">Elektronik</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon-box" data-filter=".filter-app" data-aos="fade-up" data-aos-delay="200">
                         <div class="icon"><i class="bi bi-binoculars"></i></div>
-                        <h4 class="title"><a href="">Daya & Jasa</a></h4>
+                        <h4 class="title"><a href="#portfolio">Daya & Jasa</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+                    <div class="icon-box" data-filter=".filter-app" data-aos="fade-up" data-aos-delay="300">
                         <div class="icon"><i class="bi bi-brightness-high"></i></div>
-                        <h4 class="title"><a href="">Kebutuhan Pendidikan</a></h4>
+                        <h4 class="title"><a href="#portfolio">Kebutuhan Pendidikan</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+                    <div class="icon-box" data-filter=".filter-app" data-aos="fade-up" data-aos-delay="400">
                         <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-                        <h4 class="title"><a href="">Pekerjaan Sipil</a></h4>
+                        <h4 class="title"><a href="#portfolio">Pekerjaan Sipil</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6"></div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+                    <div class="icon-box" data-filter=".filter-app" data-aos="fade-up" data-aos-delay="400">
                         <div class="icon"><i class="bi bi-filter-square"></i></div>
-                        <h4 class="title"><a href="">Perdagangan dan Pelayanan Komoditi Lainnya </a></h4>
+                        <h4 class="title"><a href="#portfolio">Perdagangan dan Pelayanan Komoditi Lainnya </a></h4>
                     </div>
                 </div>
             </div>
@@ -220,9 +220,9 @@
                 <div class="col-lg-12 d-flex justify-content-center">
                     <ul id="portfolio-flters">
                         <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-app">Komputer & Aksesoris</li>
-                        <li data-filter=".filter-card">Alat Tulis Kantor</li>
-                        <li data-filter=".filter-web">Elektronik</li>
+                        <li class="filter-app" data-filter=".filter-app">Komputer & Aksesoris</li>
+                        <li class="filter-card" data-filter=".filter-card">Alat Tulis Kantor</li>
+                        <li class="filter-web" data-filter=".filter-web">Elektronik</li>
                     </ul>
                 </div>
             </div>
@@ -340,7 +340,7 @@
                 <div class="col-lg-12 text-center text-lg-left">
                     <h3>Ingin membeli produk Kami?</h3>
                     <p>Silahkan langsung menghubungi kami dengan menekan tombol dibawah ini.</p>
-                    <a class="cta-btn align-middle" href="#"> <i class="bi bi-cart"></i> Beli Sekarang</a>
+                    <a class="cta-btn align-middle" href="{{ url('contact-us') }}"> <i class="bi bi-cart"></i> Beli Sekarang</a>
                 </div>
             </div>
 
@@ -359,58 +359,58 @@
 
                 <div class="col-lg-3 col-md-4 col-xs-6">
                     <div class="client-logo">
-                        <img src="{{ asset('frontassets/img/clients/client-1.png') }}" class="img-fluid"
+                        <img src="{{ asset('file/images/clients/pln.png') }}" class="img-fluid"
                             alt="">
                     </div>
+                    <p class="text-center pt-1 title-cilent">PT PLN (Persero)</p>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6">
                     <div class="client-logo">
-                        <img src="{{ asset('frontassets/img/clients/client-2.png') }}" class="img-fluid"
+                        <img src="{{ asset('file/images/clients/pendidikan.png') }}" class="img-fluid"
                             alt="">
                     </div>
+                    <p class="text-center pt-1 title-cilent">Dinas Pendidikan</p>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6">
                     <div class="client-logo">
-                        <img src="{{ asset('frontassets/img/clients/client-3.png') }}" class="img-fluid"
+                        <img src="{{ asset('file/images/clients/dishub.jpg') }}" class="img-fluid"
                             alt="">
                     </div>
+                    <p class="text-center pt-1 title-cilent">Kementrian Perhubungan</p>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6">
                     <div class="client-logo">
-                        <img src="{{ asset('frontassets/img/clients/client-4.png') }}" class="img-fluid"
+                        <img src="{{ asset('file/images/clients/jateng.jpg') }}" class="img-fluid"
                             alt="">
                     </div>
+                    <p class="text-center pt-1 title-cilent">Pemerintah Provinsi Jawa Tengah</p>
                 </div>
 
-                <div class="col-lg-3 col-md-4 col-xs-6">
+                <div class="col-lg-4 col-md-4 col-xs-6">
                     <div class="client-logo">
-                        <img src="{{ asset('frontassets/img/clients/client-5.png') }}" class="img-fluid"
+                        <img src="{{ asset('file/images/clients/pemkot-smg.png') }}" class="img-fluid"
                             alt="">
                     </div>
+                    <p class="text-center pt-1 title-cilent">Pemerintah Kota Semarang</p>
                 </div>
 
-                <div class="col-lg-3 col-md-4 col-xs-6">
+                <div class="col-lg-4 col-md-4 col-xs-6">
                     <div class="client-logo">
-                        <img src="{{ asset('frontassets/img/clients/client-6.png') }}" class="img-fluid"
+                        <img src="{{ asset('file/images/clients/pemkab-smg.png') }}" class="img-fluid"
                             alt="">
                     </div>
+                    <p class="text-center pt-1 title-cilent">Pemerintah Kabupaten Semarang</p>
                 </div>
 
-                <div class="col-lg-3 col-md-4 col-xs-6">
+                <div class="col-lg-4 col-md-4 col-xs-6">
                     <div class="client-logo">
-                        <img src="{{ asset('frontassets/img/clients/client-7.png') }}" class="img-fluid"
+                        <img src="{{ asset('file/images/clients/sman-3-semarang.png') }}" class="img-fluid"
                             alt="">
                     </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-xs-6">
-                    <div class="client-logo">
-                        <img src="{{ asset('frontassets/img/clients/client-8.png') }}" class="img-fluid"
-                            alt="">
-                    </div>
+                    <p class="text-center pt-1 title-cilent">SMAN 3 Semarang</p>
                 </div>
 
             </div>

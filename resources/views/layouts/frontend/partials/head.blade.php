@@ -26,6 +26,7 @@
 
     <!-- Template Main CSS File -->
     <link href="{{ asset('frontassets/css/style.css') }}?v={{ time() }}" rel="stylesheet">
+    <link href="{{ asset('frontassets/css/ck-content.css') }}?v={{ time() }}" rel="stylesheet">
 
     <!-- =======================================================
     * Template Name: Flattern - v4.9.1

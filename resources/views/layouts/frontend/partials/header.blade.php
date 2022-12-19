@@ -12,6 +12,7 @@
                 <li><a class="nav-selected" id="news-nav" href="{{ url('news') }}" data-tag="">Berita</a></li>
                 <li><a class="nav-selected" id="elearning-nav" href="{{ url('/') }}#elearning" data-tag="#elearning">E-Learning</a></li>
                 <li><a class="nav-selected" id="services-nav" href="{{ url('/') }}#services" data-tag="#services">Produk & Layanan</a></li>
+                <li><a class="nav-selected" id="contactus-nav" href="{{ url('contact-us') }}" data-tag="">Hubungi Kami</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>

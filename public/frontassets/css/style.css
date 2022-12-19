@@ -932,8 +932,8 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients .clients-wrap {
-  border-top: 1px solid #f1eeed;
-  border-left: 1px solid #f1eeed;
+  /* border-top: 1px solid #f1eeed;
+  border-left: 1px solid #f1eeed; */
 }
 
 .clients .client-logo {
@@ -941,17 +941,17 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-right: 1px solid #f1eeed;
-  border-bottom: 1px solid #f1eeed;
+  /* border-right: 1px solid #f1eeed;
+  border-bottom: 1px solid #f1eeed; */
   overflow: hidden;
   background: #fff;
-  height: 100px;
+  height: 150px;
 }
 
 .clients .client-logo img {
   transition: all 0.3s ease-in-out;
-  height: 36px;
-  filter: grayscale(100%);
+  height: 100px;
+  /* filter: grayscale(100%); */
 }
 
 .clients .client-logo:hover img {
@@ -998,8 +998,8 @@ section {
 }
 
 .about-us .image {
-  background: url("../img/about.jpg") center center no-repeat;
-  background-size: cover;
+  background: url("../img/logo-nawasena.jpeg") center center no-repeat;
+  background-size: contain;
   min-height: 400px;
 }
 
@@ -1422,7 +1422,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #ffeee8;
+  background: #e7eef9;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1561,7 +1561,7 @@ section {
 .blog .entry {
   padding: 30px;
   margin-bottom: 60px;
-  background: #f8f6f5;
+  box-shadow: 0 4px 16px rgb(0 0 0 / 10%);
 }
 
 .blog .entry .entry-img {
@@ -1637,7 +1637,7 @@ section {
 }
 
 .blog .entry .entry-content .read-more a:hover {
-  background: #fd490f;
+  background: #4c84d6;
 }
 
 .blog .entry .entry-content h3 {
@@ -1965,7 +1965,7 @@ section {
 }
 
 .blog .sidebar .search-form form button:hover {
-  background: #fd4509;
+  background: #4c84d6;
 }
 
 .blog .sidebar .categories ul {
@@ -2229,4 +2229,8 @@ section {
   background: #334e97;
   color: #fff;
   text-decoration: none;
+}
+
+.hidden{
+  display: none;
 }
