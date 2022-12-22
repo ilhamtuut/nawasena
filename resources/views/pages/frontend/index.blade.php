@@ -9,7 +9,7 @@
 
                 <!-- Slide 1 -->
                 <div class="carousel-item active"
-                    style="background-image: url({{ asset('frontassets/img/slide/slide-1.jpg') }});">
+                    style="background-image: url({{ asset('frontassets/img/slide/slide-9.jpg') }});">
                     <div class="carousel-container">
                         <div class="carousel-content animate__animated animate__fadeInUp">
                             <h2>CV NAWASENA WIGUNA SEMESTA</h2>
@@ -22,7 +22,7 @@
                 </div>
 
                 <!-- Slide 2 -->
-                <div class="carousel-item" style="background-image: url({{ asset('frontassets/img/slide/slide-2.jpg') }});">
+                <div class="carousel-item" style="background-image: url({{ asset('frontassets/img/slide/slide-8.jpg') }});">
                     <div class="carousel-container">
                         <div class="carousel-content animate__animated animate__fadeInUp">
                             <h2>CV NAWASENA WIGUNA SEMESTA</h2>
@@ -35,7 +35,7 @@
                 </div>
 
                 <!-- Slide 3 -->
-                <div class="carousel-item" style="background-image: url({{ asset('frontassets/img/slide/slide-3.jpg') }});">
+                <div class="carousel-item" style="background-image: url({{ asset('frontassets/img/slide/slide-7.jpg') }});">
                     <div class="carousel-container">
                         <div class="carousel-content animate__animated animate__fadeInUp">
                             <h2>CV NAWASENA WIGUNA SEMESTA</h2>
@@ -160,7 +160,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6">
-                    <div class="icon-box" data-filter=".filter-app" data-aos="fade-up">
+                    <div class="icon-box" data-filter=".filter-komputer" data-aos="fade-up">
                         <div class="icon"><i class="bi bi-laptop"></i></div>
                         <h4 class="title"><a href="#portfolio">Komputer & Aksesoris</a></h4>
                     </div>
@@ -178,13 +178,13 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="icon-box" data-filter=".filter-app" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon-box" data-filter=".filter-daya" data-aos="fade-up" data-aos-delay="200">
                         <div class="icon"><i class="bi bi-binoculars"></i></div>
                         <h4 class="title"><a href="#portfolio">Daya & Jasa</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="icon-box" data-filter=".filter-app" data-aos="fade-up" data-aos-delay="300">
+                    <div class="icon-box" data-filter=".filter-pendidikan" data-aos="fade-up" data-aos-delay="300">
                         <div class="icon"><i class="bi bi-brightness-high"></i></div>
                         <h4 class="title"><a href="#portfolio">Kebutuhan Pendidikan</a></h4>
                     </div>
@@ -197,7 +197,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6"></div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="icon-box" data-filter=".filter-app" data-aos="fade-up" data-aos-delay="400">
+                    <div class="icon-box" data-filter=".filter-perdagangan" data-aos="fade-up" data-aos-delay="400">
                         <div class="icon"><i class="bi bi-filter-square"></i></div>
                         <h4 class="title"><a href="#portfolio">Perdagangan dan Pelayanan Komoditi Lainnya </a></h4>
                     </div>
@@ -213,117 +213,84 @@
         <div class="container">
 
             <div class="section-title" data-aos="fade-up">
-                <h2 class="mb-0">Produk <strong>Kami</strong></h2>
+                <h2 class="mb-0">Portfolio <strong>Kami</strong></h2>
             </div>
 
             <div class="row" data-aos="fade-up">
                 <div class="col-lg-12 d-flex justify-content-center">
                     <ul id="portfolio-flters">
                         <li data-filter="*" class="filter-active">All</li>
-                        <li class="filter-app" data-filter=".filter-app">Komputer & Aksesoris</li>
                         <li class="filter-card" data-filter=".filter-card">Alat Tulis Kantor</li>
                         <li class="filter-web" data-filter=".filter-web">Elektronik</li>
+                        <li class="filter-app" data-filter=".filter-app">Pekerjaan Sipil</li>
                     </ul>
                 </div>
             </div>
 
             <div class="row portfolio-container" data-aos="fade-up">
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <img src="{{ asset('frontassets/img/portfolio/portfolio-1.jpg') }}" class="img-fluid"
-                        alt="">
-                    <div class="portfolio-info">
-                        <h4>Komputer & Aksesoris</h4>
-                        <a href="{{ asset('frontassets/img/portfolio/portfolio-1.jpg') }}"
-                            data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Komputer & Aksesoris"><i
-                                class="bx bx-plus"></i></a>
-                    </div>
-                </div>
-
                 <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <img src="{{ asset('frontassets/img/portfolio/portfolio-2.jpg') }}" class="img-fluid"
+                    <img src="{{ asset('frontassets/img/portfolio/printer.jpg') }}?v={{ time() }}" class="img-fluid"
                         alt="">
                     <div class="portfolio-info">
-                        <h4>Elektronik</h4>
-                        <a href="{{ asset('frontassets/img/portfolio/portfolio-2.jpg') }}"
-                            data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Elektronik"><i
-                                class="bx bx-plus"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <img src="{{ asset('frontassets/img/portfolio/portfolio-3.jpg') }}" class="img-fluid"
-                        alt="">
-                    <div class="portfolio-info">
-                        <h4>Komputer & Aksesoris</h4>
-                        <a href="{{ asset('frontassets/img/portfolio/portfolio-3.jpg') }}"
-                            data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Komputer & Aksesoris"><i
+                        <h4>Printer</h4>
+                        <a href="{{ asset('frontassets/img/portfolio/printer.jpg') }}?v={{ time() }}"
+                            data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Printer"><i
                                 class="bx bx-plus"></i></a>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <img src="{{ asset('frontassets/img/portfolio/portfolio-4.jpg') }}" class="img-fluid"
+                    <img src="{{ asset('frontassets/img/portfolio/alat-kantor.jpg') }}?v={{ time() }}" class="img-fluid"
                         alt="">
                     <div class="portfolio-info">
                         <h4>Alat Tulis Kantor</h4>
-                        <a href="{{ asset('frontassets/img/portfolio/portfolio-4.jpg') }}"
+                        <a href="{{ asset('frontassets/img/portfolio/alat-kantor.jpg') }}?v={{ time() }}"
                             data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Alat Tulis Kantor"><i
                                 class="bx bx-plus"></i></a>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <img src="{{ asset('frontassets/img/portfolio/portfolio-5.jpg') }}" class="img-fluid"
+                    <img src="{{ asset('frontassets/img/portfolio/laptop.jpg') }}?v={{ time() }}" class="img-fluid"
                         alt="">
                     <div class="portfolio-info">
-                        <h4>Elektronik</h4>
-                        <a href="{{ asset('frontassets/img/portfolio/portfolio-5.jpg') }}"
-                            data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Elektronik"><i
+                        <h4>Laptop</h4>
+                        <a href="{{ asset('frontassets/img/portfolio/laptop.jpg') }}?v={{ time() }}"
+                            data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Laptop"><i
                                 class="bx bx-plus"></i></a>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <img src="{{ asset('frontassets/img/portfolio/portfolio-6.jpg') }}" class="img-fluid"
+                    <img src="{{ asset('frontassets/img/portfolio/dinding.jpg') }}?v={{ time() }}" class="img-fluid"
                         alt="">
                     <div class="portfolio-info">
-                        <h4>Komputer & Aksesoris</h4>
-                        <a href="{{ asset('frontassets/img/portfolio/portfolio-6.jpg') }}"
-                            data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Komputer & Aksesoris"><i
+                        <h4>Stick on Wall</h4>
+                        <a href="{{ asset('frontassets/img/portfolio/dinding.jpg') }}?v={{ time() }}"
+                            data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Stick on Wall"><i
                                 class="bx bx-plus"></i></a>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <img src="{{ asset('frontassets/img/portfolio/portfolio-7.jpg') }}" class="img-fluid"
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <img src="{{ asset('frontassets/img/portfolio/bata-ringan.jpg') }}?v={{ time() }}" class="img-fluid"
                         alt="">
                     <div class="portfolio-info">
-                        <h4>Alat Tulis Kantor</h4>
-                        <a href="{{ asset('frontassets/img/portfolio/portfolio-7.jpg') }}"
-                            data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Alat Tulis Kantor"><i
+                        <h4>Dinding Bata Ringan</h4>
+                        <a href="{{ asset('frontassets/img/portfolio/bata-ringan.jpg') }}?v={{ time() }}"
+                            data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dinding Bata Ringan"><i
                                 class="bx bx-plus"></i></a>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <img src="{{ asset('frontassets/img/portfolio/portfolio-8.jpg') }}" class="img-fluid"
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <img src="{{ asset('frontassets/img/portfolio/kontruksi.jpg') }}?v={{ time() }}" class="img-fluid"
                         alt="">
                     <div class="portfolio-info">
-                        <h4>Alat Tulis Kantor</h4>
-                        <a href="{{ asset('frontassets/img/portfolio/portfolio-8.jpg') }}"
-                            data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Alat Tulis Kantor"><i
-                                class="bx bx-plus"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <img src="{{ asset('frontassets/img/portfolio/portfolio-9.jpg') }}" class="img-fluid"
-                        alt="">
-                    <div class="portfolio-info">
-                        <h4>Elektronik</h4>
-                        <a href="{{ asset('frontassets/img/portfolio/portfolio-9.jpg') }}"
-                            data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Elektronik"><i
+                        <h4>Kontruksi</h4>
+                        <a href="{{ asset('frontassets/img/portfolio/kontruksi.jpg') }}?v={{ time() }}"
+                            data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Kontruksi"><i
                                 class="bx bx-plus"></i></a>
                     </div>
                 </div>
